@@ -1,0 +1,46 @@
+/*Klasse mehrfach verwendbar*/
+.button{
+    font-family: 'Permanent Marker', cursive;
+    border: 2px solid steelblue;
+    background-color: rgba(70, 130, 180, 0.2);
+    border-radius: 15px ;
+    color: steelblue;
+    cursor: pointer;
+    border-color: steelblue;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px;
+}
+/*alles im 'body' erhaehlt die Formatierung*/
+body{
+    background-image: url(./assets/background.jpg);
+    background-repeat: none;
+    background-size:cover;
+}
+
+.box{
+    max-width: 900px;
+    margin-top: 30px;
+    width: 90%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    color: steelblue;
+}
+
+#gif{
+    margin-top: 60px;
+    height: 200px;
+    width: 200px;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 50px;
+    font-size: 45px;
+    width: 90%;
+    max-width: fit-content;
+    color: rgb(53, 53, 53);
+}
+
